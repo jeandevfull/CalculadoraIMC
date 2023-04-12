@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Oswald:wght@500&family=Tilt+Warp&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.content{
+   height: 100vh;
+   background-image: url('https://png.pngtree.com/background/20210709/original/pngtree-gradient-creative-poster-background-design-picture-image_940259.jpg');
+   background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+
+main{
+    margin-top: 320px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+   
+label{
+    font-size: 27px;
+    font-family: 'Alice', serif;
+}
+
+input{
+    width: 340px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+button{
+    width: 200px;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+h1{
+    font-size: 35px;
+    color: black;
+}
+
+@media (max-width:768px) {
+     label, button,h1 {
+       font-size: 17px;
+    }
+    input{
+        width: 200px;
+        height: 20px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+}
